@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>Cadatro</h1>
+        </header>
+    <main>
+        <div class="content">
+
+            <div class="dadosUsuario">
+                
+                <form>
+                    <label class="labalDados">Dados do usuário</label>
+                    <br />
+                    <br />
+                    <label>Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" />
+                    <label>Email</label>
+                    <input type="text" name="email" id="email" placeholder="Digite seu email" />
+                </form>
+            </div>
+
+            <hr />
+            <br/>
+            <br/>
+            <div class="servicosDesejados">
+                <label for="servicos">Serviços Desejados:</label>
+                <select id="servicos" name="servicos">
+                    <option value="passagens">Compra de Passagens</option>
+                    <option value="hospedagem">Reserva de Hospedagem</option>
+                    <option value="veiculos">Aluguel de Veículos</option>
+                </select>
+            </div>
+
+            <hr />
+            <br/>
+            <br/>
+            <div class="formasDePagamento">
+                <br/>
+                <fieldset>
+                    <legend>Forma de Pagamento:</legend>
+                    <br/>
+                    <label for="debito">
+                      <input type="radio" id="cartao" name="cartao" value="cartao" /> Cartão
+                    </label>
+              <br/>
+                                  
+                    <label for="boleto">
+              <input type="radio" id="boleto" name="forma-pagamento" value="boleto"> Boleto
+              </label>
+                    
+                    <br/>
+                    <label for="pix">
+                      <input type="radio" id="pix" name="forma-pagamento" value="pix">
+                      PIX</label>
+                    
+                </fieldset>
+
+            </div>
+          <div class="formasDePagamento">
+            <label for="prazo-pagamento">Prazo de Pagamento:</label>
+<select id="prazo-pagamento" name="prazo-pagamento">
+    <option value="a-vista">À Vista</option>
+    <option value="cinco-vezes">Cinco Vezes Sem Juros</option>
+    <option value="dez-vezes">Dez Vezes Com Juros</option>
+</select>
+
+          </div>
+        </div>
+      </main>
+        <script src="script.js"></script>
+</body>
+
+</html>
