@@ -1,0 +1,112 @@
+/*reseta boxes*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-size: 1020px;
+}
+
+@media (max-width: 375px) {
+    :root {
+        --bg-size: 320px;
+    }
+}
+body {
+  background: #1d1e20;
+}
+main {
+  width: 1440px;
+  height: 1024px;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  justify-content: center;
+  background: #1d1e20;
+}
+
+.content {
+  background: gray;
+/*   margin-left: 0px; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-content: collum;
+  
+}
+
+header{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 1440px;
+  height: 34px;
+  background: #1d1e20;
+  font-family: "Roboto";
+  font-weight: Bold;
+  color: #08EB99;
+}
+
+.dadosUsuario  {
+ align-items: center;
+/*   justify-content: ; */
+/*   display: flex; */
+  width: 1440px;
+  height: 74px;
+/*   margin-top: 20px; */
+  margin-left: 15px;
+  background: green;
+  font-family: "Roboto";
+  font-weight: Regular;
+  color: white;
+  background: #393939;
+}
+
+.labalDados label {
+  margin-top: 45px;
+  background:
+}
+
+.dadosUsuario input {
+  border-radius: 5px;
+  border-color: #08EB99;
+  font-family: "Roboto";
+  font-weight: Regular;
+}
+
+.servicosDesejados {
+  width: 1440px;
+  height: 44px;
+  margin-left: 15px;
+  background: green;
+  font-family: "Roboto";
+  font-weight: Regular;
+}
+
+.servicosDesejados select {
+    font-family: "Roboto";
+  font-weight: Regular;
+  border-radius: 5px;
+  border-color: #08EB99;
+  color: #08EB99;
+}
+
+.formasDePagamento{
+  width: 1440px;
+  height: 130px;
+  margin-left: 15px;
+  background: green;
+  font-family: "Roboto";
+  font-weight: Regular;
+}
+
+.formasDePagamento select {
+  font-family: "Roboto";
+  font-weight: Regular;
+  border-radius: 5px;
+  border-color: #08EB99;
+  color: #08EB99;
+}
+
