@@ -14,19 +14,21 @@
 <body>
     <div>
         <header>
-            <h1>Cadatro</h1>
+            <h1>Cadastro</h1>
         </header>
     <main>
         <div class="content">
-
+            <hr/>
             <div class="dadosUsuario">
                 
                 <form>
-                    <label class="labalDados">Dados do usuário</label>
+                    <label class="labalDados">Dados do usuário:</label>
                     <br />
                     <br />
                     <label>Nome</label>
                     <input type="text" name="nome" id="nome" placeholder="Digite seu nome" />
+                    <br/>
+                    <br/>
                     <label>Email</label>
                     <input type="text" name="email" id="email" placeholder="Digite seu email" />
                 </form>
@@ -35,8 +37,8 @@
             <hr />
             <br/>
             <br/>
-            <div class="servicosDesejados">
-                <label for="servicos">Serviços Desejados:</label>
+            <div class="servicosDesejados" >
+                <label for="servicos" class="labelSelect">Serviços Desejados:</label>
                 <select id="servicos" name="servicos">
                     <option value="passagens">Compra de Passagens</option>
                     <option value="hospedagem">Reserva de Hospedagem</option>
@@ -46,7 +48,7 @@
 
             <hr />
             <br/>
-            <br/>
+            
             <div class="formasDePagamento">
                 <br/>
                 <fieldset>
@@ -69,14 +71,22 @@
                 </fieldset>
 
             </div>
-          <div class="formasDePagamento">
-            <label for="prazo-pagamento">Prazo de Pagamento:</label>
+
+            <hr/>
+
+          <div class="prazoDePagamento">
+            <label for="prazo-pagamento" class="labelSelect">Prazo de Pagamento:</label>
 <select id="prazo-pagamento" name="prazo-pagamento">
     <option value="a-vista">À Vista</option>
     <option value="cinco-vezes">Cinco Vezes Sem Juros</option>
     <option value="dez-vezes">Dez Vezes Com Juros</option>
 </select>
 
+          </div>
+          <hr/>
+
+          <div class="submit">
+            <input type="submit" value="salvar"> 
           </div>
         </div>
       </main>
